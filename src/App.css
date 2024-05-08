@@ -1,0 +1,870 @@
+/* Navbar.jsx */
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px 15px 60px;
+    border: 1px solid #EAEAEA;
+    border-radius: 65px;
+    margin: 25px 15px 0 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    object-fit: center;
+    width: auto;
+    height: 30px;
+}
+.buttonDiv {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectsBtn,
+.onboardBtn {
+    border: 2px solid #EAEAEA;
+    border-radius: 40px;
+    font-family: Manrope;
+    padding: 25px 38px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.projectsBtn {
+    background-color: white;
+    color: #1C1C1C;
+}
+
+.onboardBtn {
+    background: linear-gradient(to right, #1C1C1C, #000000, #363535);
+    color: white;
+}
+
+.projectsBtn:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.onboardBtn:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 9px rgba(52, 48, 48, 0.878);
+}
+
+/* Hero.jsx */
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 25px 15px 35px;
+    align-items: center;
+    margin-top: 78px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 90px;
+}
+.headerQuote {
+    font-family: "Shadows Into Light", cursive;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    color: #2DA950;
+    height: 40px;
+}
+.headerDesc {
+    font-family: "Open Sans", sans-serif;
+    width: 38rem;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+
+.heroSection {
+    display: flex;
+    flex-direction: row;
+    margin-top: 170px;
+    justify-content: center;
+    gap: 186px;
+    flex-wrap: wrap;
+}
+
+.imageDiv{
+    position: relative;
+    padding-left: 90px;
+}
+
+.heroImg {
+    width: 520px;
+    height: 550px;
+}
+
+.heroDesc {
+    font-family: "Open Sans", sans-serif;
+    width: 30rem;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 0;
+    /* margin-top: 330px; */
+    height: 200px;
+}
+
+.absoluteDiv1 {
+    position: absolute;
+    max-width: 205px;
+    background-color: white;
+    box-shadow: 0px 22.59px 36.14px 0px #1E1E1E17;
+    padding: 40px 35px 24px 30px;
+    border-radius: 35px;
+    top: 115px;
+    left: -48px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.crownImg {
+    position: absolute;
+    top: -20px;
+    left: -12px;
+    min-height: 100px;
+    max-width: 100px;
+}
+
+.absoluteHeading1 {
+    font-family: Switzer;
+    font-size: 64px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    font-family: Switzer;
+    text-align: left;
+    margin: 0;
+    max-width: 200px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.absoluteText1 {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    color: #828282;
+    /* margin-top: 200px; */
+    height: 100px;
+}
+
+.absoluteDiv2 {
+    position: absolute;
+    max-width: 205px;
+    background-color: white;
+    padding: 32px 28px 28px 20px;
+    border-radius: 50px;
+    top: 418px;
+    left: 30px;
+    position: absolute;
+    box-shadow: 0px 15.21px 35.49px 0px #00000017;
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rocketImgDiv {
+    border-radius: 50%;
+    padding: 14px 12px;
+    background-color: rgba(45, 169, 80, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.rocketImg {
+    width: 28px;
+    height: 27px;
+    margin: 0;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.absoluteHeading2 {
+    font-family: Manrope;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    display: inline-block;
+    letter-spacing: -0.05em;
+    max-width: 130px;
+    height: 30px;
+    margin: 0;
+    /* margin-top: 3px; */
+}
+
+.absoluteText2 {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #828282;
+    margin-top: 4px;
+    margin-bottom: 0;
+    max-width: 140px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.absoluteDiv3 {
+    border: 1.18px solid linear-gradient(159.14deg, #3D3D3D 6.08%, rgba(61, 61, 61, 0) 85.58%);
+    position: absolute;
+    max-width: 205px;
+    background-color: white;
+    box-shadow: 0px 22.59px 36.14px 0px #1E1E1E17;
+    padding: 60px 40px 35px 40px;
+    border-radius: 35px;
+    top: 370px;
+    left: 395px;
+    height: 150px;
+    background: #002E18;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.absoluteHeading3 {
+    font-family: Switzer;
+    font-size: 63.37px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: white;
+    margin: 0;
+    background-color: #002E18;
+    max-width: 120px;
+    margin-top: 30px;
+    height: 70px;
+}
+.absoluteHeading3Span {
+    color: #A6A3A0;
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    background-color: #002E18;
+    margin-top: 60px;
+    max-width: 100px;
+    height: 30px;
+}
+
+.absoluteText3 {
+    position: absolute;
+    font-family: Manrope;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 23.4px;
+    text-align: left;
+    color: #CCCCCC;
+    letter-spacing: 0.04em;
+    background-color: #002E18;
+    /* margin-top: 2px; */
+    width: 220px;
+    height: 90px;
+}
+
+.heroTextDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    gap: 145px;
+    margin-top: 170px;
+    /* border: 10px solid pink; */
+}
+
+.carouselNavDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-left: 5px;
+}
+
+.carouselNavigation {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: #E4E3E3;
+}
+
+.nextSection {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.exploreBtn {
+    border: 2px solid #EAEAEA;
+    border-radius: 40px;
+    font-family: Manrope;
+    padding: 25px 38px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #1C1C1C, #000000, #1d1d1d);
+    color: white;
+}
+
+.exploreBtn:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 9px rgba(52, 48, 48, 0.878);
+}
+
+/* EditableInput.jsx */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4px;
+    position: relative;
+}
+
+.wrapper:hover>.iconDiv {
+    display: inline;
+}
+
+textarea {
+    border: none;
+    resize: none;
+    overflow: hidden;
+}
+.content textarea{
+    margin-left: -100px;
+}
+
+.imgSpan {
+    position: absolute;
+    right:-10px;
+    top: -28px;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+
+
+/* ButtonIcon.jsx */
+
+.iconDiv {
+    cursor: pointer;
+    min-width: min-content;
+    border-radius: 50%;
+    padding: 3px;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.iconDiv:hover {
+    background: rgba(204, 204, 204, 0.9);
+}
+
+
+/* Faqs.jsx */
+.faqsDiv {
+  display: flex;
+  margin-top: 200px;
+  background: #e8eee7;
+  border-radius: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /* height: 110vh; */
+  height: max-content;
+  padding: 20px 0px 100px 20px;
+}
+
+.faqsLeftSection {
+  /* flex: 1; */
+  margin-top: 90px;
+  text-align: left;
+}
+
+.faqsHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.faqsQuote {
+  font-family: 'Shadows Into Light', cursive;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: #2da950;
+  margin: 0;
+  height: 40px;
+  background: #e8eee7;
+  margin-left: -150px;
+}
+
+.faqDesc {
+  font-family: 'Open Sans', sans-serif;
+  width: 38rem;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 0;
+  overflow-wrap: break-word;
+  background: #e8eee7;
+}
+
+.faqsRightSection {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 150px; /* space between questions */
+  align-items: center;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* space between questions */
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  cursor: pointer; /* Add cursor pointer */
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.question {
+  width: 500px;
+  background: #e8eee7;
+  font-family: 'Open Sans';
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 10px; /* Added padding */
+}
+
+.answer {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  width: 400px;
+  background: #e8eee7;
+  color: #617275;
+  align-items: flex-start;
+  /* margin-top: 120px; */
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+  
+
+
+
+
+@media (max-width: 700px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .navContainer{
+        width: 25rem;
+        margin-right: 2rem;
+    }
+    .projectsBtn{
+        border: 2px solid #EAEAEA;
+        border-radius: 40px;
+        font-family: Manrope;
+        padding: 18px 8px;
+        font-size: 19px;
+        font-weight: 500;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .onboardBtn{
+        border: 2px solid #EAEAEA;
+        border-radius: 40px;
+        font-family: Manrope;
+        padding: 18px 8px;
+        font-size: 19px;
+        font-weight: 500;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .heroContainer{
+        width: 28rem;
+        overflow: hidden;
+    }
+
+    .headerDesc{
+        width: 28rem;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 3.5rem;
+    }
+    
+    .faqsDiv{
+        width: 25rem;
+    }
+    .faqsRightSection{
+        width: 25rem;
+        font-size: 1rem;
+        margin-top: 300px;
+        margin-left: -400px;
+        flex-direction: row;
+    }
+    .faqsHeader{
+        width: 22rem;
+    }
+    .faqDesc{
+        width: 20rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .faqsQuote{
+        margin-left: 10px;
+    }
+
+    .title textarea{
+        margin-left: 60px;
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+    .content textarea{
+        margin-left: 60px;
+        width: 20rem;
+        font-size: 0.9rem;
+    }
+    
+    .imageDiv{
+        padding: 0;
+    }
+
+    .heroImg{
+        width: 25rem;
+        height: 25rem;
+    }
+    .absoluteDiv1{
+        top: 200px;
+        width: 100px;
+    }
+
+    .absoluteHeading1{
+        width: 100px;
+    }
+    .absoluteText1{
+        width: 100px;
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+
+    .absoluteDiv2{
+        left: 11rem;
+        top: 19rem;
+    }
+
+    .absoluteDiv3{
+        visibility: hidden;
+    }
+
+    .regHeaderDesc{
+        width: 28rem;
+        font-size: 1rem;
+    }
+
+    .registerPageDiv{
+        width: 35rem;
+    }
+
+
+    .congratsDiv{
+        width: 44rem;
+    }
+    .successMssgDesc{
+        margin-top: 40px;
+        width: 40rem;
+        font-size: 1rem;
+    }
+    .redirectParaDiv{
+        width: 44rem;
+    }
+    .redirectPara{
+        margin-top: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1200px) and (min-width: 700px) {
+    
+    .faqsDiv{
+        width: 43rem;
+    }
+    .faqsRightSection{
+        width: 40rem;
+        font-size: 2rem;
+        margin-top: 300px;
+        margin-left: -650px;
+        flex-direction: row;
+    }
+    .faqsHeader{
+        width: 40rem;
+    }
+    .faqDesc{
+        width: 20rem;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .faqsQuote{
+        margin-left: 10px;
+    }
+
+    .title textarea{
+        margin-left: 60px;
+        width: 30rem;
+        font-size: 1.4rem;
+    }
+
+    .content textarea{
+        margin-left: 60px;
+        width: 30rem;
+        font-size: 1rem;
+    }
+
+
+}
+
+
+/* Register.jsx */
+
+.RegisterHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.regHeaderDesc {
+    font-family: "Open Sans", sans-serif;
+    width: 38rem;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    margin: 0;
+    overflow-wrap: break-word;
+}
+
+.inputFormDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 60px;
+}
+
+.nameInput, .emailInput {
+    width: 300px;
+    padding: 22px 45px;
+    gap: 10px;
+    border-radius: 64px;
+    background: #EFEFEF;
+    border: 1px solid #EFEFEF;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.inputFormDiv>input:focus{
+    outline: #537FF1 solid 1px;
+    background-color: #F5F8FF;
+    border:none;
+}
+
+
+
+.submitBtn {
+    margin-top: 12px;
+    border: 2px solid #EAEAEA;
+    border-radius: 40px;
+    font-family: 'Open Sans';
+    padding: 25px 154px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: linear-gradient(to right, #1C1C1C, #000000, #282626);
+    color: white;
+}
+
+
+.submitBtn:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 9px rgba(52, 48, 48, 0.878);
+}
+
+.errorMssg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-start;
+    /* border: 2px solid red; */
+    width:  25%;
+    margin-top: -20px;
+}
+
+.errorMssg img {
+    height: 15px;
+    width: 15px;
+}
+
+.errorMssg p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    text-align: center;
+    color: red;
+}
+
+.disabled {
+    background: #C9C9C9;
+}
+
+
+/* Congratulations.jsx */
+
+.congratsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px;
+    gap: 15px;
+}
+
+.successImgDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+
+.successImg {
+    height: 62px;
+    width: 62px;
+    margin: 0;
+}
+
+.successHead {
+    margin: 0;
+}
+
+.successMssg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45rem;
+}
+
+.successMssgDesc {
+    font-family: 'Open Sans';
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 35.1px;
+    text-align: center;
+    color: #727272;
+}
+
+.redirectParaDiv {
+    margin-top: auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.redirectPara {
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #727272;
+}
+
+.redirectPara span {
+    font-weight: 600;
+    color: black;
+    font-size: 22px;
+}
+
+  
