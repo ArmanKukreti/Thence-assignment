@@ -50,7 +50,7 @@ const Hero = () => {
 
           <div className="nextSection">
             <div className="carouselNavDiv">
-              <div className='carouselNavigation'></div>
+              <div className='carouselNavigation' style={{background: '#2DA950'}}></div>
               <div className='carouselNavigation'></div>
               <div className='carouselNavigation'></div>
             </div>

@@ -12,7 +12,7 @@ const Button = ({ ahref='', className, text, img }) => {
           </button>
         </a>
       ) : (
-        <button style={{ display: 'flex', gap: '20px', alignItems: 'center' }} className={className}>
+        <button style={{ display: 'flex', gap: '20px', alignItems: 'center'}} className={className}>
           {text}
           {img && img}
         </button>

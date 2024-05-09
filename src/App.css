@@ -331,7 +331,7 @@ a {
     font-weight: 500;
     text-align: center;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.3s ease-in-out;
     background: linear-gradient(to right, #1C1C1C, #000000, #1d1d1d);
     color: white;
 }
@@ -649,6 +649,10 @@ textarea {
     .redirectPara{
         margin-top: 30px;
     }
+    .footer {
+        display: flex;
+        width: 18rem;
+    }
 
 }
 
@@ -691,7 +695,10 @@ textarea {
         font-size: 1rem;
     }
 
-
+    .footer {
+        display: flex;
+        width: 36rem;
+    }
 }
 
 
@@ -867,4 +874,53 @@ textarea {
     font-size: 22px;
 }
 
+/* Footer.jsx */
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F5F5F5;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 42px 70px ;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 45px;
+}
+
+.leftDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftDiv img {
+    height: 20px;
+    width: 20px;
+}
+
+.leftDiv p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 19.8px;
+    text-align: left;
+}
+
+.rightDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rightDiv p {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.8px;
+    text-align: left;
+    text-decoration: 1px underline;
+}
   

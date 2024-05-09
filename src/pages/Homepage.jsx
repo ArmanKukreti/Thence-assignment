@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Faqs from '../components/Faqs'
+import Footer from '../components/Footer'
 
 
 const Homepage = () => {
@@ -10,7 +11,7 @@ const Homepage = () => {
       <Navbar Page={"homepage"}/>
       <Hero/>
       <Faqs/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
